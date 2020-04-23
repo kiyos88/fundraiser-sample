@@ -1,0 +1,31 @@
+{
+  "name": "Fundraiser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-native start",
+    "generate-mdp": "mkdir -p mdp && cp manifest.json ./mdp/manifest.json && react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output mdp/index.android.bundle --assets-dest ./mdp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-native": "^0.61.5",
+    "lottie-react-native": "^3.3.2",
+    "mobx": "^4.5.0",
+    "mobx-react": "^5.2.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-decorators": "^7.0.0",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "24.8.0",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.5.0"
+  }
+}

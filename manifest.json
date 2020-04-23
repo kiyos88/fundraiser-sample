@@ -1,0 +1,11 @@
+{
+   "appName": "Fundraiser",
+   "description": "fundraiser app for meda",
+   "iconUrl": "https://www.google",
+   "primaryColor": "#FFFFFF",
+   "packageId": "com.fundraiser",
+   "permissions": [],
+   "versionCode": 1,
+   "versionName": "1.0.0",
+   "independentStack": false
+}
